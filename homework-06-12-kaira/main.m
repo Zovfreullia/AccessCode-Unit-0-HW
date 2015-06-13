@@ -2,7 +2,7 @@
 //  main.m
 //  homework-06-12-kaira
 //
-//  Created by Fatima Zenine Villanueva on 6/10/15.
+//  Created by Kaira Villanueva on 6/10/15.
 //  Copyright (c) 2015 apps. All rights reserved.
 //
 
@@ -11,6 +11,7 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
+        // for making you own choice
         int commuteChoice;
         
         printf("THE COMMUTE\n \n");
@@ -23,6 +24,7 @@ int main(int argc, const char * argv[]) {
         
         printf("\n\nThe night is closing in and around her, and the bodega that she passed by seven hours ago going to work now looks like a place where crack addicts snort it up. She tries hard to put those thoughts away and instead, she ruminates on her freshly washed bedsheets. They smell of  lilac.\n\nBEEEEEP! BEEEEEP!\n\nStopping two inches away from an incoming car, her heartbeat palpitates the rhythm of fear.\n\n'I can't take this shit anymore. I'm getting a ride.'\n");
         
+        // bool to check while loop
         BOOL choiceCommute = NO;
         
         while(!choiceCommute){
@@ -35,7 +37,7 @@ int main(int argc, const char * argv[]) {
             scanf("%d", &commuteChoice);
             printf("\n");
     
-        
+            // commute choice -- lets you pick different scenarios
             if (commuteChoice == 1){
                 choiceCommute = YES;
                 printf("She picks the closest uber driver available.");
